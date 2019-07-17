@@ -1,6 +1,5 @@
 import java.math.BigDecimal
 
-class Day2 {
     fun highAndLow(numbers: String): String {
         val list = numbers.split(" ").map { it.toInt() }
         return "${list.max()} ${list.min()}"
@@ -15,4 +14,3 @@ class Day2 {
                 it[i] = (it[i - 1].toBigDecimal() + it[i - 2].toBigDecimal() + it[i - 3].toBigDecimal()).toDouble()
             }
         }
-}

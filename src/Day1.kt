@@ -1,4 +1,3 @@
-class Day1 {
     fun evenNumbers(array: List<Int>, number: Int): List<Int> {
         // good luck
         return array.filter { it % 2 == 0 }.takeLast(number)
@@ -32,4 +31,3 @@ class Day1 {
     //best
 //    fun nbYear(pp0: Int, percent: Double, aug: Int, p: Int): Int =
 //        generateSequence(pp0.toDouble()) { it * (1 + percent / 100) + aug }.takeWhile { it < p }.count()
-}
